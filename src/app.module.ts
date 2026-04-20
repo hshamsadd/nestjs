@@ -19,7 +19,7 @@ import { User } from './auth/entities/user.entity';
       username: 'hyfuser',
       password: 'hyfpassword',
       database: 'youtube-nestjs-project',
-      entities: [Post, User], // array of entities that you want to register
+      entities: [Post, User], // array of entities that you want to register.
       synchronize: true, // only for dev mode and must be false for prod
     }),
 
